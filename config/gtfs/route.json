@@ -1,8 +1,81 @@
 {
     "default_route_id_enabled": true,
-    "use_route_short_name_for_route_id": true,
+    "use_route_short_name_for_route_id": false,
+    "use_route_short_name_for_route_id_comment": "no route short name provided",
+    "route_id_to_route_short_name_configs": [
+        {
+            "route_id": "17",
+            "route_comment": "Sainte-Foy - Alma",
+            "route_short_name": "SF A"
+        },
+        {
+            "route_id": "18",
+            "route_comment": "Dolbeau - Chicoutimi",
+            "route_short_name": "D C"
+        },
+        {
+            "route_id": "19",
+            "route_comment": "Saint-Félicien - Chibougamau",
+            "route_short_name": "ST C"
+        },
+        {
+            "route_id": "20",
+            "route_comment": "Sainte-Foy - Baie-Comeau",
+            "route_short_name": "SF BC"
+        },
+        {
+            "route_id": "21",
+            "route_comment": "Hauterive - Sept-Iles - Havre-Saint-Pierre",
+            "route_short_name": "H SI HSP"
+        },
+        {
+            "route_id": "22",
+            "route_comment": "Sainte-Foy - Jonquière",
+            "route_short_name": "SF J"
+        },
+        {
+            "route_id": "38",
+            "route_comment": "Navette Spectacle aérien de Bagotville",
+            "route_short_name": "NS B"
+        },
+        {
+            "route_id": "40",
+            "route_comment": "Navette vers le Domaine Forget pour les camps musicaux",
+            "route_short_name": "N DF"
+        },
+        {
+            "route_id": "44",
+            "route_comment": "Navette de la neuvaine de Sainte-Anne (Qc - Basilique Sainte-Anne)",
+            "route_short_name": "N SA"
+        },
+        {
+            "route_id": "45",
+            "route_comment": "Chicoutimi - Tadoussac",
+            "route_short_name": "C T"
+        },
+        {
+            "route_id": "50",
+            "route_comment": "Navette Parc Nationale de la Jacques-Cartier",
+            "route_short_name": "N P JC"
+        }
+        ,{
+            "route_id": "55",
+            "route_comment": "Navette Valinouet",
+            "route_short_name": "N V"
+        }
+    ],
     "default_route_long_name_enabled": true,
+    "direction_splitter_enabled": true,
+    "direction_splitter_disabled_until": {
+        "21": "20260822"
+    },
     "direction_finder_enabled": true,
+    "direction_headsign_cleaners": [
+        {
+            "regex": "\\s*\\(.*\\)\\s*$",
+            "comment": "remove parenthesis at the end of the string"
+        }
+    ],
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
     "stop_name_cleaners": []
