@@ -57,8 +57,8 @@
             "route_id": "50",
             "route_comment": "Navette Parc Nationale de la Jacques-Cartier",
             "route_short_name": "N P JC"
-        }
-        ,{
+        },
+        {
             "route_id": "55",
             "route_comment": "Navette Valinouet",
             "route_short_name": "N V"
@@ -78,5 +78,6 @@
     ],
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
-    "stop_name_cleaners": []
+    "stop_headsign_cleanup_regex": ".*",
+    "stop_headsign_cleanup_regex_comment": "stop head-signs are stop names"
 }
