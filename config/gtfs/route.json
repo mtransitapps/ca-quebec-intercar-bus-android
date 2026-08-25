@@ -67,8 +67,9 @@
     "default_route_long_name_enabled": true,
     "direction_splitter_enabled": true,
     "direction_splitter_disabled_until": {
-        "21": "20260822"
+        "21": "20261222"
     },
+    "direction_splitter_disabled_until_comment_21": "Route 21 is actually 2 different routes with 2 directions each on official website: Sept-Îles / Baie-Comeau and Sept-Îles / Havre-Saint-Pierre.",
     "direction_finder_enabled": true,
     "direction_headsign_cleaners": [
         {
